@@ -8,16 +8,17 @@
         <Dialog name="kaiwa1" src="kaiwa1/kaiwa1.dlg" />
     </Dialogs>
     <Resources>
-        <File name="big_dog" src="html/images/big_dog.jpg" />
         <File name="blue" src="html/images/blue.jpg" />
         <File name="color_question" src="html/images/color_question.jpg" />
-        <File name="dog_cat" src="html/images/dog_cat.jpg" />
         <File name="red" src="html/images/red.jpg" />
+        <File name="title" src="html/images/title.jpg" />
     </Resources>
     <Topics>
         <Topic name="kaiwa1_jpj" src="kaiwa1/kaiwa1_jpj.top" topicName="kaiwa1" language="ja_JP" />
     </Topics>
     <IgnoredPaths>
+        <Path src="html/.DS_Store" />
         <Path src=".metadata" />
+        <Path src=".DS_Store" />
     </IgnoredPaths>
 </Package>
