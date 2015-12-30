@@ -1,7 +1,7 @@
 topic: ~kaiwa1()
 language: jpj
 
-u:(e:onStart) \vct=135\ $showImage=title.jpg これは会話と、タブレットの表示を連携するサンプルアプリです。色の話か、動物の話といってね
+u:(e:onStart) \vct=135\ $showImage=title.jpg これは会話と、タブレットの表示を連携するサンプルアプリです。\pau=1000\ 色の話か、動物の話といってね
 
 u:(動物の話) 犬か猫を飼っていますか？
 　u1:(犬) 大きい犬ですか？ 
@@ -13,7 +13,7 @@ u:(動物の話) 犬か猫を飼っていますか？
 　　u2:(いいえ) とても大きな家にお住みなんですね
 　u1:(いいえ) 私と一緒ですね
 
- u:(色の話) こんにちは。好きな色は、赤、青だとどっち？  $pointTablet=1 $showImage=color_question.jpg 
+ u:(色の話) こんにちは。 $pointTablet=1 $showImage=color_question.jpg 好きな色は、赤、青だとどっち？ 
   u1:(赤) $showImage=red.jpg きっと情熱的なひとなんですね！ \pau=3000\ $hideImage=1
   u1:(青) $showImage=blue.jpg きっと冷静沈着なひとなんですね！ \pau=3000\ $hideImage=1
  
